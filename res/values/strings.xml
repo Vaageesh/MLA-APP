@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="app_name">R S Doddamani</string>
+    <string name="Welcome">  Ramakrishna S Doddamani  </string>
+    <string name="newsBtn">&quot;     News and Updates     &quot;</string>
+    <string name="homeBtn">&quot;      Home      &quot;</string>
+    <string name="abtBtn">&quot;  About Us  &quot;</string>
+    <string name="contactBtn">&quot; Contact Us &quot;</string>
+    <string name="welcomes">Welcomes You</string>
+    <string name="biographyBtn">&quot;  Biography  &quot;</string>
+    <string name="personName">&quot;   Ramakrishna S Doddamani   &quot;</string>
+</resources>

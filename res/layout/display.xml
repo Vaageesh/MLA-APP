@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="#fff">
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:gravity="center">
+    <TextView
+            android:id="@+id/personName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:layout_marginTop="30dp" android:textStyle="bold" android:textSize="22sp" android:textColor="#1C834E" android:text="@string/personName" android:gravity="center"/>
+
+    <TextView
+            android:id="@+id/tagName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginTop="5dp" android:textStyle="bold" android:textSize="16sp" android:textColor="#3028BC" android:text="@string/welcomes" android:gravity="center"/>
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mla2" android:layout_marginTop="35dp" />
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+     <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+    <Button
+            android:id="@+id/updatesbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" android:textStyle="bold" android:textSize="16sp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:text="@string/newsBtn"/>
+     </TableRow>
+            <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+    <Button
+            android:id="@+id/biographybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:textStyle="bold" android:textSize="16sp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:text="@string/biographyBtn"/>
+    </TableRow>
+            <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+    <Button
+            android:id="@+id/contactbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:textStyle="bold" android:textSize="16sp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:text="@string/contactBtn"/>
+            </TableRow>
+    <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+        <Button
+                android:id="@+id/aboutBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:textStyle="bold" android:textSize="16sp" android:layout_marginRight="40dp" android:layout_marginLeft="40dp" android:text="@string/abtBtn"/>
+    </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

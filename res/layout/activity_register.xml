@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView-->
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:fillViewport="true"
+        >
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dip"
+            android:weightSum="1"
+            android:gravity="center"
+            android:focusableInTouchMode="true">
+
+        <Button android:id="@+id/btnGCMRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="#cacaca"
+                android:textColor="#000"
+                android:text=" GCM register "
+                android:textSize="16sp"
+                android:padding="5dp"/>
+        <Button android:id="@+id/btnAppShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="#cacaca"
+                android:textColor="#000"
+                android:text=" App share "
+                android:textSize="16sp"
+                android:padding="5dp"/>
+            </LinearLayout>
+</RelativeLayout>
